@@ -1,3 +1,3 @@
-# My Awesome Book
+# A Quick Python Primer
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is a short but informative book on python which intends to cover many of the language features, modules and popular libraries. This book is meant for the impatient programmers who want to quickly get acquanted with python.
