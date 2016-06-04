@@ -1,10 +1,7 @@
 {
-{
-    "plugins": ["autocover"],
-    "pluginsConfig": {
-        "autocover": {
+"plugins": ["autocover"],
     "title": "My Book",
-    "author": "Chandan Purohit",
+    "author": "Author",
     "pluginsConfig": {
         "autocover": {
             "font": {
@@ -21,7 +18,4 @@
             }
         }
     }
-}
-    }
-}
 }
