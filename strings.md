@@ -17,6 +17,18 @@ Note that the original string did not change ie. the one in my_name. **Strings a
 
 >TypeError: 'str' object does not support item assignment
 
+The '\*' operator can be used with strings if one of the operands is an int.
+> \>>>2 * 'hello'
+
+>'hellohello'
+
+With the ```in``` operator, we can check whether a character/string appears in a string:
+>\>>> 'ha' in 'chandan'
+
+>True
+
+
+
 
 
 
