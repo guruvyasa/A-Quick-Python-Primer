@@ -1,4 +1,4 @@
-# String
+# Strings
 There is no char type in python. Only strings. Thus single quotes and double quotes both can be used for strings.
 > \>>>my_name = 'chandan' #same as "chandan"
 
