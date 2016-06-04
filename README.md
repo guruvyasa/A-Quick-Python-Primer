@@ -6,4 +6,4 @@ Python is a free,open-source,general-purpose programming language which was star
 
 Python has a humane syntax and teaches good programming practices and hence is considered ideal for first time programmers. In its current avatar as Python 3 it includes many useful modules. Some of these are tkinter for gui, sqlite3 for database and statistics for basic statistical operations. With these libraries it is now possible to build a complete database-driven GUI application with just pure python.
 
-Python is used in almost all fields of software development. To name a few game development, embedded programming, testing, data analysis, web development and many more. Let us drive straight into this fascinating world of python.
+Python is used in almost all areas of engineering and science. To name a few game development, embedded programming, testing, data analysis, web development and many more. Let us drive straight into this fascinating world of python.
