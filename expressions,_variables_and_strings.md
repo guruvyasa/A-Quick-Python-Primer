@@ -48,9 +48,11 @@ Python also has a power operator **\*\***
 >\>>>8
 
 **%** is the modulus operator
-> \>>>3 % 2
+> \>>>3.5 % 2
 
->\>>>1
+>\>>>1.5
+
+Python also has many built-in functions to perform common tasks like abs(),max(),min() etc.
 
 
 
