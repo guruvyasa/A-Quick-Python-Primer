@@ -40,6 +40,20 @@ Here we tested +,- and * operators for addition,subtraction and multiplication r
 
 >\>>>0
 
+There are two division operators in python 3, **/** for real division (gives actual quotient) and **//** gives the truncated result.
+
+Python also has a power operator **\*\***
+>\>>>2 \*\* 3
+
+>\>>>8
+
+**%** is the modulus operator
+> \>>>3 % 2
+
+>\>>>1
+
+
+
 
 
 
