@@ -27,6 +27,13 @@ With the ```in``` operator, we can check whether a character/string appears in a
 
 >True
 
+Length of a string can be got from len() function
+>\>>>len('aaa')
+
+>3
+
+
+
 
 
 
