@@ -109,7 +109,7 @@ Since python is extremely humane language and because variable names are indeed 
 
 ####Variable names
 The characters making up a variable name can be lowercase and uppercase letters from the
-alphabet (a through z and A through Z), the underscore character (_), and, except for the
+alphabet (a through z and A through Z), the underscore character ( _ ), and, except for the
 first character, digits 0 through 9:
 
 
