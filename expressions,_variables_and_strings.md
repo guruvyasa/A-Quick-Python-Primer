@@ -1,4 +1,4 @@
-# Expressions, Variables and Strings
+# Expressions, Variables
 Before we start, you need to start a new python interpreter session. Python interpreter is a software which can intrepret and run python programs. It runs through your python program line-by-line executing each one at a time. Thus you can either open up an interactive interpreter session and try out python instructions one at a time or feed your entire python program as input to the interpreter. We will be working in the interactive interpreter in this chapter. 
 
 ### Starting interactive interpreter
