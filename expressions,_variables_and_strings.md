@@ -162,7 +162,8 @@ Just like in other languages python performs lazy evaluation of compound express
 > \>>> a or b
 
 > 10
-> 
+
+We will discuss these in more detail when we discuss decision statements. 
 
 
 
