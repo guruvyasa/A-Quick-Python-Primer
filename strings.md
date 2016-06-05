@@ -29,8 +29,36 @@ With the ```in``` operator, we can check whether a character/string appears in a
 
 Length of a string can be got from len() function
 >\>>>len('aaa')
-
+'ss
 >3
+
+Everything is an object in python. So are strings. We can easily know the methods available on strings through the interpreter console as:
+
+>\>>>dir('ss') #'ss' is just a string, any object can be given to dir
+
+Follow along
+
+>\>>> s = 'chandan'
+
+>\>>> s.upper()
+
+>'CHANDAN'
+
+>\>>>s.count('a') #gives count of number of occurences of 'a' in 'chandan'
+
+You can get help for any of these functions by
+
+>\>>>help(s.isalnum) #gives doc about isalnum method in object s
+
+
+split() -> splits a string based on a delimiter if provided else split on space.
+eg.
+
+> \>>> s = "this is a sentence"
+
+>\>>> words = s.split()
+
+Here we get back list of words in the sentence.
 
 
 
