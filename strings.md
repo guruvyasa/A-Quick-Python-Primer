@@ -101,12 +101,17 @@ Experiment with this slicing syntax to become a python wizard.
 ####Palindrome one-liner
 Thanks to the powerful slicing in python checking if a string is palindrome is just one-line as:
 
-> s == s[::-1]
+> \>>> s == s[::-1]
 
 >False
 
-Strings can be compared using == operator.
+Strings can be compared using the same relational operators.
 
+>\>>> s > 'hi'
+
+> False
+
+This performs a dictionary comparison of the two strings.
 
 
 
