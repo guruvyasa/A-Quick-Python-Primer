@@ -34,3 +34,5 @@ elif number == 10:
   print('Number equal to 10')
 else:
   print('Neither 5 or 10')
+```
+
