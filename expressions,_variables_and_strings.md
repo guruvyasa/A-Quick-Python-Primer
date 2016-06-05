@@ -135,6 +135,36 @@ with yield
 ```
 ### Boolean Expressions and Relational Operators
 
+Python supports boolean types, True and False. Any expression which returns a non-zero result evaluates to True otherwise to False.
+
+>\>>> a = 10; b = 30
+
+>\>>> a == b
+
+>False
+
+>\>>> a < b
+
+>True
+
+Python supports logical operators ```and or not```.
+
+>\>>> (a > 5) and (b < 40)
+
+>True
+
+Just like in other languages python performs lazy evaluation of compound expressions.
+
+> \>>> a and b
+
+>30
+
+> \>>> a or b
+
+> 10
+> 
+
+
 
 
 
