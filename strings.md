@@ -111,7 +111,9 @@ Strings can be compared using the same relational operators.
 
 > False
 
-This performs a dictionary comparison of the two strings.
+This performs a dictionary comparison of the two strings. 
+
+In Python 3 strings are unicode. So we can have our variables in any language! To get unicode representation of a character use ord(). chr() returns the character corresponding to the code.
 
 
 
