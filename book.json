@@ -1,7 +1,7 @@
 {
 "plugins": ["autocover"],
-    "title": "My Book",
-    "author": "Author",
+    "title": "A Quick Python Primer",
+    "author": "Chandan Purohit",
     "pluginsConfig": {
         "autocover": {
             "font": {
