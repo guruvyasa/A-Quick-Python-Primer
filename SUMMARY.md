@@ -9,4 +9,5 @@
    * [if statement](if_statement.md)
 * [Loops](loops.md)
    * [The for loop](the_for_loop.md)
+   * The while loop
 
