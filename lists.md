@@ -67,11 +67,15 @@ print(sum(numbers))
 ```
 
 ## Appending new elements to a list
-We can append new elements to a list using the append( ) method 
+We can append new elements to a list using the append( ) method
 ```
 sample_list = [3,4,6]
 sample_list.append(20)
 print(sample_list) #prints [3,4,6,20]
+```
+The append( ) method takes object as argument and inserts it at the end of the list
+
+## 
 
  
 
