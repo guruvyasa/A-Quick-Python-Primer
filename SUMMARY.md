@@ -7,5 +7,5 @@
 * [Decision Statements](decision_statements.md)
    * [Code Indentation](code_indentation.md)
    * [if statement](if_statement.md)
-* Loops
+* [Loops](loops.md)
 
