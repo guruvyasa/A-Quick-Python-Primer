@@ -18,7 +18,7 @@ A list can contain any python object, be it integer,string, user-defined object 
 ## Finding list length
 The len function gives length of a list
 ```
-len(s)
+len(sample_list)
 ```
 
 ## Accessing list elements
