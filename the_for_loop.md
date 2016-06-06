@@ -10,7 +10,7 @@ for i in range(10):
 * range(10) -> generates numbers between 0 and 10 (not including 10). This is NOT exactly what happens, but we can safely assume this way for now.
 * range(1,10) -> 1,2,3,..,9
 * range(1,10, 2) -> 1,3,5,7,9
-*
+
 
 In the loop example above the variable i takes on the values 0,1,2,..,9 on the 1st,2nd,3rd,...,10th iteration respectively.
 
