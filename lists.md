@@ -64,6 +64,8 @@ Although this program works we can use the sum( ) function straightaway
 ```
 numbers = [2,5,6,7]
 print(sum(numbers))
+```
+
  
 
 
