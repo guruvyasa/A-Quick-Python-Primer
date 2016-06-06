@@ -8,4 +8,5 @@
    * [Code Indentation](code_indentation.md)
    * [if statement](if_statement.md)
 * [Loops](loops.md)
+   * The for loop
 
