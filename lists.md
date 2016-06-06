@@ -47,7 +47,24 @@ sample_list[1][0] # gives 2
 sample_list[1] # gives [2,3]
 ```
 ## Looping through a list
-
+Since lists are iterables we can use the for loop syntax with 'in' keyword to loop through
+```
+for element in sample_list:
+  print(element)
+```
+###Program to sum a list of numbers
+```
+sum = 0
+numbers = [2,3,5,6]
+for number in numbers:
+  sum += number
+print(sum)
+```
+Although this program works we can use the sum( ) function straightaway
+```
+numbers = [2,5,6,7]
+print(sum(numbers))
+ 
 
 
 
