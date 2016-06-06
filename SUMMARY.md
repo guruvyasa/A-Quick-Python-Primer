@@ -10,5 +10,5 @@
 * [Loops](loops.md)
    * [The for loop](the_for_loop.md)
    * [The while loop](the_while_loop.md)
-* Lists
+* [Lists](lists.md)
 
