@@ -76,7 +76,7 @@ It is very easy to use variables in python. You dont need to worry about types. 
 
 >10 20
 
-Here we used the print() function to print the results on the screen.
+Here we used the print( ) function to print the results on the screen.
 In python variable names are just names, they can be names of anything. For example the value in variable a is now 10. We can change it to anything and python will not complain.
 
 >\>>>type(a)
@@ -88,6 +88,17 @@ In python variable names are just names, they can be names of anything. For exam
 >\>>>type(a)
 
 >class 'float'
+
+Python also has a NoneType. Let us look at an example:
+
+>\>>> print(print('hello'))
+>
+>hello
+
+>None
+
+In the example above, the print statement returns None and thus None gets printed. None evaluates to False when used in boolean context.
+
 
 ####Swapping the python way
 Since python is extremely humane language and because variable names are indeed just names swapping values of two variables is just a one-liner!!
