@@ -15,6 +15,12 @@ sample_list = [1,2,'hello']
 
 A list can contain any python object, be it integer,string, user-defined object etc.
 
+## Finding list length
+The len function gives length of a list
+```
+len(s)
+```
+
 ## Accessing list elements
 List elements can be accessed using index
 ```
@@ -28,7 +34,7 @@ sample_list[-1] #gives 'hello'
 Lists also support slicing, just like strings
 ```
 sample_list[0:2] #returns new list [1,2]
-sample_list[::-1] #returns new reversed list ie ['hello',2,1]
+sample_list[::-1] #returns new reversed list ie. ['hello',2,1]
 ```
 ## Nesting lists
 Lists can have anything inside, thus they can have other lists as members
@@ -40,6 +46,7 @@ Now we can access the first element in the second nested list
 sample_list[1][0] # gives 2
 sample_list[1] # gives [2,3]
 ```
+## Looping through a list
 
 
 
