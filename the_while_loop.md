@@ -7,7 +7,7 @@ current_number = start_number
 while(True):
   print(current_number)
   user_input = input('enter q to quit')
-  if user_input == q:
+  if user_input == 'q':
     break
   current_number += 2
 ```
