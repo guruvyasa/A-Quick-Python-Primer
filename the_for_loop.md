@@ -40,3 +40,4 @@ l t
 l e
 ```
 One thing to notice here is that zip considers the smallest length iterable for zipping through. Thus the for loop iterates only 4 times ie. length of 'hate'.
+The for loop is generally preferred when the number for times the loop has to run is fixed.
