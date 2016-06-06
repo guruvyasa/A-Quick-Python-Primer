@@ -26,7 +26,7 @@ name = 'chandan'
 for character in name:
   print(character)
 ```
-This is possible because a string is an iterable object. We can loop through an object if it is iterable.
+This is possible because a string is an iterable object(an object through which you can iterate). We can loop through an object if it is iterable.
 Python has a useful utility function call zip( ) to iterate through multiple iterables simultaneously. Here is an example to iterate through two strings.
 ```
 for c1,c2 in zip('hello','hate'):
