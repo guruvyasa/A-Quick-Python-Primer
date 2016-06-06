@@ -70,6 +70,8 @@ Thus, integer(int),floating point(float) are amongst the basic data types in pyt
 
 There are no ++ or -- operators in python but +=,-=,*=,/= are present.
 
+
+
 ### Variables
 It is very easy to use variables in python. You dont need to worry about types. Python takes care of that for you. It is a dynamically typed language.
 >\>>> a = 10;b=20
