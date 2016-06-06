@@ -36,3 +36,19 @@ else:
   print('Neither 5 or 10')
 ```
 
+Nesting if statements is also quite easy, just notice the indentation.
+```
+number = 10
+if number > 5:
+  if number % 2 == 0:
+    print('even and above 5')
+  else:
+    print('above 5 but not even')
+else:
+  print('less than 5')
+  ```
+  
+ Although switch statement and ternary operator are not present in python, there is a cool short hand notation for the simple if statement. Look at the code below:
+ ```
+ message_string = None
+ 
