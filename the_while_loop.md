@@ -11,4 +11,13 @@ while(True):
     break
   current_number += 2
 ```
+* input( ) -reads user input, returns user input as string
+* break - used to abruptly jump out of current enclosing loop
+
+The syntax for a while loop is
+```
+while expression:
+  statement
+  ```
+Here value of the expression decides whether the loop body can be entered or not.
 
