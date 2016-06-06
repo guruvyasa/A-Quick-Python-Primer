@@ -20,4 +20,10 @@ while expression:
   statement
   ```
 Here value of the expression decides whether the loop body can be entered or not.
+A popular usage of while loop is to make infinite loop as:
+```
+while True:
+  statement
+```
+
 
