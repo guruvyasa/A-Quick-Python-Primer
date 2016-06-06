@@ -75,7 +75,9 @@ print(sample_list) #prints [3,4,6,20]
 ```
 The append( ) method takes object as argument and inserts it at the end of the list
 
-## 
+## Inserting elements into a list (at any position)
+The insert( ) 
+
 
  
 
