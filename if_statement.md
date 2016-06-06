@@ -55,4 +55,3 @@ else:
  message_string = "hello" if a == 10 else "hi"
  ```
  In the code above, since value in a is 10, message_string will have the string "hello". 
- 
