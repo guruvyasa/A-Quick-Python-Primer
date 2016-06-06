@@ -1,4 +1,4 @@
-# Basic Data Type
+# Basic Data Types
 IN THIS CHAPTER, we introduce a very small subset of Python. While
 small, it is broad enough to start doing interesting things right away. In the
 next chapters we fill in the details. We begin by using Python as a
