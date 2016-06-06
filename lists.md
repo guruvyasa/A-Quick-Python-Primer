@@ -52,7 +52,7 @@ Since lists are iterables we can use the for loop syntax with 'in' keyword to lo
 for element in sample_list:
   print(element)
 ```
-###Program to sum a list of numbers
+### Program to sum a list of numbers
 ```
 sum = 0
 numbers = [2,3,5,6]
@@ -65,6 +65,13 @@ Although this program works we can use the sum( ) function straightaway
 numbers = [2,5,6,7]
 print(sum(numbers))
 ```
+
+## Appending new elements to a list
+We can append new elements to a list using the append( ) method 
+```
+sample_list = [3,4,6]
+sample_list.append(20)
+print(sample_list) #prints [3,4,6,20]
 
  
 
