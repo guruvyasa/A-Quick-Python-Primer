@@ -27,4 +27,16 @@ for character in name:
   print(character)
 ```
 This is possible because a string is an iterable object. We can loop through an object if it is iterable.
-Python has a useful utility function call zip( ) to iterate through multiple iterables simultaneously.
+Python has a useful utility function call zip( ) to iterate through multiple iterables simultaneously. Here is an example to iterate through two strings.
+```
+for c1,c2 in zip('hello','hate'):
+  print(c1,c2)
+```
+Here is the output of the above program
+```
+h h
+e a
+l t
+l e
+```
+One thing to notice here is that zip considers the smallest length iterable for zipping through. Thus the for loop iterates only 4 times ie. length of 'hate'.
