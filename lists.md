@@ -81,6 +81,17 @@ The insert( ) method which is present in all list objects can be used to insert 
 sample_list = [2,3,4]
 sample_list.insert(1,'hello')
 print(sample_list) #prints [2,'hello',3,4]
+```
+The insert method takes 2 arguments,
+* index where element has to be inserted
+* element to insert
+
+## Deleting elements from a list
+There are two ways in which we can delete elements from a list
+1. Using remove( ) method: We can use the remove( ) method of the list object to locate and remove an element(first occurrence) from a list. eg. ```sample_list.remove(2)```
+2. Using del: If we know the index of the element we can use del. Eg. ```del sample_list[1]```
+
+
 
 
  
