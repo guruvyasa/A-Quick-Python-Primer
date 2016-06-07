@@ -76,7 +76,11 @@ print(sample_list) #prints [3,4,6,20]
 The append( ) method takes object as argument and inserts it at the end of the list
 
 ## Inserting elements into a list (at any position)
-The insert( ) 
+The insert( ) method which is present in all list objects can be used to insert an element anywhere in the list.
+```
+sample_list = [2,3,4]
+sample_list.insert(1,'hello')
+print(sample_list) #prints [2,'hello',3,4]
 
 
  
