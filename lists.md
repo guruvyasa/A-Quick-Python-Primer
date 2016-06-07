@@ -91,6 +91,31 @@ There are two ways in which we can delete elements from a list
 1. Using remove( ) method: We can use the remove( ) method of the list object to locate and remove an element(first occurrence) from a list. eg. ```sample_list.remove(2)```
 2. Using del: If we know the index of the element we can use del. Eg. ```del sample_list[1]```
 
+There are many more methods in the list object. You can refer the documentation.
+
+## List comprehension
+It is quite common to have problems where we want to generate and return a new list based on some computation. List comprehensions help us do that in a much easier way. Let us see an example:
+**Write a program which gives list of even numbers from a list of numbers**
+Here is an implementation without using comprehensions
+```
+even_numbers = [] 
+given_numbers = [2,3,4,5,6,7]
+for number in given_numbers:
+  if number % 2 == 0:
+    even_numbers.append(number)
+    
+print(even_numbers)
+```
+Here is the same program using list comprehension.
+
+```
+even_numbers = [number for number in given_numbers if number % 2 == 0]
+print(even_numbers)
+```
+
+
+
+
 
 
 
