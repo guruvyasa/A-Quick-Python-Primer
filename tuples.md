@@ -48,3 +48,11 @@ first_number, *other_numbers = numbers
 print(first_number,other_numbers) # prints 3 [4,5,6,7]
 ```
 If you observe the output other_numbers is **list** of all the other numbers except first one.
+
+## Converting to tuple
+We can convert a string to a tuple with the tuple( ) function
+```
+numbers = '23456'
+numbers_tuple = tuple(numbers)
+print(numbers_tuple) # 
+
