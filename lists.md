@@ -30,6 +30,14 @@ We can also use negative indices just like wge saw for strings, to access list e
 ```
 sample_list[-1] #gives 'hello'
 ```
+## Changing list contents
+It is very simple to change contents of a list using the familiar index notation. LISTS ARE MUTABLE.
+```
+sample_list = [1,2,3]
+sample_list[1] = 'Hello'
+print(sample_list) #prints [1,'Hello',3]
+```
+
 ## Slicing lists
 Lists also support slicing, just like strings
 ```
