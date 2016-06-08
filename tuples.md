@@ -46,4 +46,5 @@ If number of values in the tuple is more than number of variables, then we need 
 numbers = (3,4,5,6,7)
 first_number, *other_numbers = numbers
 print(first_number,other_numbers) # prints 3 [4,5,6,7]
+```
 
