@@ -54,5 +54,25 @@ We can convert a string to a tuple with the tuple( ) function
 ```
 numbers = '23456'
 numbers_tuple = tuple(numbers)
-print(numbers_tuple) # 
+print(numbers_tuple) # prints (2,3,4,5,6)
+```
+Similarly, we can convert a list to a tuple
+```
+numbers_list = tuple([3,4,5])
+```
+## Sorting
+Since tuples are immutable in-place sorting cannot be done. However, we can used the sorted( ) function to get back a new sorted list containing the tuple contents
+```
+numbers = (4,3,2,1)
+sorted_numbers_list = sorted(numbers) # default ascending sort
+print(sorted_numbers_list)
+```
+## Searching
+Tuples support searching just like lists using the ```in```keyword
+
+```
+print('hi' in ('hello','hi')) #Prints True
+```
+
+
 
