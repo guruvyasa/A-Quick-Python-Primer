@@ -28,7 +28,7 @@ Here are some example which show common set operations:
  Similar to list comprehension we have set comprehension
  ```
  a = {x for x in 'abracadabra' if x not in 'abc'}
- print(a) # prints {'a','b','c'}
+ print(a) # prints {'r','d'}
  ```
  
  
