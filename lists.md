@@ -112,7 +112,18 @@ Here is the same program using list comprehension.
 even_numbers = [number for number in given_numbers if number % 2 == 0]
 print(even_numbers)
 ```
+List comprehension can be used if:
+* A new list needs to generated
+* Nesting level of for loops is less than or equal to 2
+* Only one if statement needs to be evaluated
 
+## Sorting list
+If a list contains only numbers or strings we can use the sort( ) method of list object to sort the list.
+```
+sample_list = [3,6,1,2]
+sample_list.sort()
+print(sample_list) #prints [1,2,3,6]
+```
 
 
 
