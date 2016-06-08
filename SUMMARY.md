@@ -12,5 +12,5 @@
    * [The while loop](the_while_loop.md)
 * [Lists](lists.md)
 * [Tuples](tuples.md)
-* [Sets](sets.md)
+* [Sets and Dictionaries](sets.md)
 
