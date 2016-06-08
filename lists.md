@@ -130,11 +130,13 @@ In case of list of strings, lexicographical ordering of character used for sorti
 We can also define how a particular list needs to be sorted by defining a comparison function and assigning it to the 'key' parameter of sort( ) method. We will discuss this in our chapter on functions.
 
 ## Searching a list
-We can use the ```in``` keyword just like we did for strings to search a list for an element.
+We can use the ```in``` keyword just like we did for strings to search a list for an element. Here is a simple example to search a word in a list.
 ```
 sample_list = ['hello','hi','chandan']
 if 'chandan' in sample_list:
   print("found word")
+else:
+  print('word not found')
 ```
 
 
