@@ -47,4 +47,4 @@ numbers = (3,4,5,6,7)
 first_number, *other_numbers = numbers
 print(first_number,other_numbers) # prints 3 [4,5,6,7]
 ```
-
+If you observe the output other_numbers is **list** of all the other numbers except first one.
