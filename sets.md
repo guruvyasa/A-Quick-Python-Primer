@@ -32,6 +32,7 @@ Here are some example which show common set operations:
  ```
  
  
-
+#Dictionaries
+A dictionary as an unordered set of key: value pairs, with the requirement that the keys are unique (within one dictionary).
 
 
