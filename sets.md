@@ -52,6 +52,14 @@ As shown we can get a value giving the key to the dictionary. We can either use 
 print(sample_dict.keys()) # prints ['name','estd']
 print(sample_dict.values()) # prints ['sathvik',2015]
 print('name' in sample_dict) # prints True
+```
+
+## Using dict( ) constructor
+The ```dict( )``` constructor can be used to create a dictionary from sequences of values. Here are some examples:
+```
+my_dict1 = dict([('name', 'chandan'), ('age', 30)])
+my_dict2 = dict(name='chandan',age=30)
+```
 
 
 
