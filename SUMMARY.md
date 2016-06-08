@@ -11,5 +11,5 @@
    * [The for loop](the_for_loop.md)
    * [The while loop](the_while_loop.md)
 * [Lists](lists.md)
-* Tuples
+* [Tuples](tuples.md)
 
