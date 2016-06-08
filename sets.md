@@ -33,6 +33,25 @@ Here are some example which show common set operations:
  
  
 #Dictionaries
-A dictionary as an unordered set of key: value pairs, with the requirement that the keys are unique (within one dictionary).
+A dictionary is an unordered set of key: value pairs, with the requirement that the keys are unique (within one dictionary).
+
+## Creating empty dictionary
+A pair of empty flower braces creates an empty dictionary
+```
+empty_dict = { } 
+```
+## A simple dictionary example
+Here is a simple example using dictionaries
+```
+sample_dict = {'name':'sathvik','estd':2015} # creates a dictionary
+print(sample_dict['name']) # prints sathvik
+print(sample_dict.get('estd')) # prints 2015
+```
+As shown we can get a value giving the key to the dictionary. We can either use [] or the get( ) method. Here are some more examples:
+```
+print(sample_dict.keys()) # prints ['name','estd']
+print(sample_dict.values()) # prints ['sathvik',2015]
+print('name' in sample_dict) # prints True
+
 
 
