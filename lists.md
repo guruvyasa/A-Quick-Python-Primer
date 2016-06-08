@@ -121,8 +121,20 @@ List comprehension can be used if:
 If a list contains only numbers or strings we can use the sort( ) method of list object to sort the list.
 ```
 sample_list = [3,6,1,2]
-sample_list.sort()
+sample_list.sort() # default ascending sort
 print(sample_list) #prints [1,2,3,6]
+sample_list.sort(reverse=True) #descending order sort
+```
+In case of list of strings, lexicographical ordering of character used for sorting. 
+
+We can also define how a particular list needs to be sorted by defining a comparison function and assigning it to the 'key' parameter of sort( ) method. We will discuss this in our chapter on functions.
+
+## Searching a list
+We can use the ```in``` keyword just like we did for strings to search a list for an element.
+```
+sample_list = ['hello','hi','chandan']
+if 'chandan' in sample_list:
+  print("found word")
 ```
 
 
