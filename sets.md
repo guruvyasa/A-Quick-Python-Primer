@@ -66,10 +66,10 @@ Python 3 also supports dictionary comprehension. It is similar to list and set c
 Suppose we have a list of dictionaries, each dictionary containing student data. Suppose we have to pick only those students whose marks is above some threshold.
 
 ```
-students = [{'name':'Ram','marks':20},
-            {'name':'Vishwa','marks':21},
-            {'name':'Vaibhav','mark':20},
-            {'name':'Vijay','marks':23}]
+students = [{'marks':20},
+            {'marks':21},
+            {'marks':20},
+            {'marks':23}]
             
 # return all students whose marks is greater than 20
 students_filtered = {key:value for key,value for students.items() if } 
