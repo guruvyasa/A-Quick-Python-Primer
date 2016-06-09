@@ -67,9 +67,10 @@ Suppose we have a list of dictionaries, each dictionary containing student data.
 
 ```
 students = [{'name':'Ram','marks':20},
-            {'name':'Vishwa','marks'=21},
-            {'name':'Vaibhav','marks'=20},
-            {'name':'Vijay','marks'=23}]
+            {'name':'Vishwa','marks':21},
+            {'name':'Vaibhav','mark':20},
+            {'name':'Vijay','marks':23}]
+            
 
 
 
