@@ -71,6 +71,9 @@ students = [{'name':'Ram','marks':20},
             {'name':'Vaibhav','mark':20},
             {'name':'Vijay','marks':23}]
             
+# return all students whose marks is greater than 20
+students_filtered = {key:value for key,value for students.items() if } 
+            
 
 
 
