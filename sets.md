@@ -61,5 +61,16 @@ my_dict1 = dict([('name', 'chandan'), ('age', 30)])
 my_dict2 = dict(name='chandan',age=30)
 ```
 
+## Dictionary comprehension
+Python 3 also supports dictionary comprehension. It is similar to list and set comprehension except that it now applies to a dictionary. Here is an example:
+Suppose we have a list of dictionaries, each dictionary containing student data. Suppose we have to pick only those students whose marks is above some threshold.
+
+```
+students = [{'name':'Ram','marks':20},
+            {'name':'Vishwa','marks'=21},
+            {'name':'Vaibhav','marks'=20},
+            {'name':'Vijay','marks'=23}]
+
+
 
 
