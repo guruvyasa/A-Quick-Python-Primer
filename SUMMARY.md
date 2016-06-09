@@ -13,4 +13,5 @@
 * [Lists](lists.md)
 * [Tuples](tuples.md)
 * [Sets and Dictionaries](sets.md)
+* Functions
 
