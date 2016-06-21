@@ -82,6 +82,17 @@ def fib(n):
 
 In the function above we have made use of the fact that the nth fibonacci number is equal to sum of (n-1)th and (n-2)th fibonacci number
 
+## Nesting of functions
+ We can also nest functions ie. one function definition can be inside another. Here is an example:
+ ```
+ def outerFunction(s):
+   def innerFunction(s):
+     print(s)
+   innerFunction(s)
+   
+ outerFunction('sathvik softech') 
+ ```
+ 
 
 
 
