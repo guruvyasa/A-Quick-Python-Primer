@@ -57,6 +57,35 @@ def addTwo(a=10,b=20):
 print(addTwo()) # adds 10 and 20, prints 30
 print(addTwo(20)) # adds 20 and 20, prints 40
 print(addTwo(30,30) # adds 30 and 30, prints 60
+```
+As shown in the example, since both a and b have default values assigned, the call ```addTwo()``` just adds the default values of a and b. Similarly, the call ```addTwo(20)``` assigns the value 20 to a and b uses default value, ie 20.
+
+Remember 2 rules when using default arguments:
+* non-default argument cannot come after default argument. eg. ```def addTwo(a=10,b): #error
+ ```
+* Python does not support polymorphism the way c++ or java supports ie. we cant have 2 functions with the same name within the same scope. If given, the last function definition will override all others above it.
+
+
+## Recursion
+
+A function can call itself. Here is an example of such a recursive function to calculate the nth fibbonacci number.
+
+```
+def fib(n):
+  if n == 1:
+    return 0
+  elif n == 2:
+    return 1
+  else:
+    return fib(n-1) + fib(n-2)
+```
+
+In the function above we have made use of the fact that the nth fibonacci number is equal to sum of (n-1)th and (n-2)th fibonacci number
+
+
+
+
+
 
 
 
