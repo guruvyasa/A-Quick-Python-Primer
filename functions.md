@@ -19,11 +19,44 @@ numbers = [[2,3],2,3,4]
 def changeNumber(number1, number2):
   number1 = 30
   number2 = 40
-  print('in function, number1 = ',number1,'number2= ',number2)
+  print('in function changeNumber, number1 = ',number1,'number2= ',number2)
+  
+def changeNumbers(numbers):
+  numbers[1] = 222
+  
   
 changeNumber(number1,number2)
 
-print('Outside function, number1 = ',number1,'number2 = ',number2)
+print('Outside function changeNumber, number1 = ',number1,'number2 = ',number2)
 
+changeNumbers(numbers)
+print('After executing changeNumbers ',numbers)
 
 ```
+
+This program prints the following output:
+```
+in function changeNumber, number1 =  30 number2=  40
+Outside function changeNumber, number1 =  10 number2 =  20
+After executing changeNumbers  [[2, 3], 222, 3, 4]
+```
+
+If you observe the output here, values of number1 and number2 have remained the same after executing changeNumber. This shows variables number1 and number2 are local to the function changeNumber. They are passed by value ie. copies of those variables are passed.
+
+On the other hand, numbers is a list and thus it gets passed **by reference**. So changes made inside ```changeNumbers``` function are visible outside too.
+
+
+## Default arguments
+
+Python allows us to assign default values to arguments of a function. Let us consider an example:
+```
+
+def addTwo(a=10,b=20):
+  return a+b
+  
+print(addTwo()) # adds 10 and 20, prints 30
+print(addTwo(20)) # adds 20 and 20, prints 40
+print(addTwo(30,30) # adds 30 and 30, prints 60
+
+
+
