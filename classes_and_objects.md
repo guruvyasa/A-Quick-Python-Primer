@@ -30,6 +30,7 @@ Now we can start creating new students with different names and ages as,
 ```
 student1 = Student('sathvik',22)
 student2 = Student('chandan',2)
-print(student1.age,student1.name)
+print("Student1 data ",student1.age,student1.name)
+print("Student2 data ",student2.age,student2.name);
 ```
                                                                                                                                                                                                                                                                                                                                                                                            
