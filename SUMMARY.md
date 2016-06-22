@@ -14,4 +14,5 @@
 * [Tuples](tuples.md)
 * [Sets and Dictionaries](sets.md)
 * [Functions](functions.md)
+* Classes and Objects
 
