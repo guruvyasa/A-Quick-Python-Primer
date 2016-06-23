@@ -25,7 +25,7 @@ class Student:
     self.name = name
     self.age = age
 ```
-Now we can start creating new students with different names and ages as,
+Now we can start creating new students with different names and ages as;
 
 ```
 student1 = Student('sathvik',22)
@@ -33,4 +33,6 @@ student2 = Student('chandan',2)
 print("Student1 data ",student1.age,student1.name)
 print("Student2 data ",student2.age,student2.name);
 ```
-The \_\_init\_\_  method behaves like a constructor of the Student class, which takes the name and age, and creates a new student object with the given name and age.                                                                                                                                                                                                                                                                                                                                                                             
+Every method in a class is passed a reference to the instance by default, and thus we need to have a parameter to hold it. We have used 'self' in our example to hold the reference to the current instance.
+
+The \_\_init\_\_  method behaves like a constructor of the Student class, which takes the name and age, and creates a new student object with the given name and age.                                                                                                                                                                                                                                                                                                                                                                            
