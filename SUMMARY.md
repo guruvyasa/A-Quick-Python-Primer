@@ -15,4 +15,5 @@
 * [Sets and Dictionaries](sets.md)
 * [Functions](functions.md)
 * [Classes and Objects](classes_and_objects.md)
+   * Class Variables and Methods
 
