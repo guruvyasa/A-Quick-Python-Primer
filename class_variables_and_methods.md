@@ -12,3 +12,6 @@ class Student:
 s1 = Student() //prints 1 students created so far
 s2 = Student() //prints 2 students created so far
 ```
+In this example, we have a Student class which contains an attribute called **count**. This is a class variable. We can access it through the class as ```Student.count```. We have incremented this count value in the \_\_init\_\_ function. 
+Class variables are common to all objects. Thus, if a class variable is modified in a object all other objects will also see the modified value.
+
