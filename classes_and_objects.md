@@ -33,4 +33,4 @@ student2 = Student('chandan',2)
 print("Student1 data ",student1.age,student1.name)
 print("Student2 data ",student2.age,student2.name);
 ```
-                                                                                                                                                                                                                                                                                                                                                                                           
+The \_\_init\_\_  method behaves like a constructor of the Student class, which takes the name and age, and creates a new student object with the given name and age.                                                                                                                                                                                                                                                                                                                                                                             
