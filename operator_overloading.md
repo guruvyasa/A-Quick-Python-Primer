@@ -22,4 +22,7 @@ s1 = Student(20)
 s2 = Student(30)
 print(s1 + s2) #prints 50
 ```
+Similarly we can overload other operators like \*,== etc by implementing the \_\_mul\_\_,\_\_eq\_\_ etc. 
+
+
 
