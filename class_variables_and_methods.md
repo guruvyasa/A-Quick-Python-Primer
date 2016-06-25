@@ -33,6 +33,7 @@ s2 = Student() //prints 2 students created so far
 
 Student.getStudentCount() //prints 2
 ```
+Just like in other object oriented programming languages, class variables and methods can be accessed via the class names themselves.
 
 
 
