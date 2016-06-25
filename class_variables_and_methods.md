@@ -31,6 +31,6 @@ class Student:
 s1 = Student() //prints 1 students created so far
 s2 = Student() //prints 2 students created so far
 
-Student.getStudentCount()
+Student.getStudentCount() //prints 2
 
 
