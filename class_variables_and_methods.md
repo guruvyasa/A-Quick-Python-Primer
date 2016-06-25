@@ -27,10 +27,10 @@ class Student:
   @staticmethod
   def getStudentCount(self):
     print(Student.count)
-    
-    
-    
+  
 s1 = Student() //prints 1 students created so far
 s2 = Student() //prints 2 students created so far
+
+Student.getStudentCount()
 
 
