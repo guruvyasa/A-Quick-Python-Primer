@@ -18,4 +18,8 @@ class Student:
   def __add__(self,st):
     return self.marks + st.marks
 
+s1 = Student(20)
+s2 = Student(30)
+print(s1 + s2) #prints 50
+```
 
