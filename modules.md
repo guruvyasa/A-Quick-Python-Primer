@@ -48,3 +48,16 @@ There is even a variant to import all names that a module defines:
 1 1 2 3 5 8 13 21 34 55 89 144 233 377
 ```
 This imports all names except those beginning with an underscore ( \_ ). In most cases Python programmers do not use this facility since it introduces an unknown set of names into the interpreter, possibly hiding some things you have already defined.
+
+##Executing modules as scripts
+When you run a Python module with
+```
+python fibo.py <arguments>
+```
+the code in the module will be executed, just as if you imported it, but with the __name__ set to "__main__". That means that by adding this code at the end of your module:
+```
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
+ ```
+ you can make the file usable as a script as well as an importable module, because the code that parses the command line only runs if the module is executed as the “main” file:
