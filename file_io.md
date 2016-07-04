@@ -24,3 +24,25 @@ To read a file’s contents, call f.read(size), which reads some quantity of dat
 >>> f.readline()
 ''
 ```
+For reading lines from a file, you can loop over the file object. This is memory efficient, fast, and leads to simple code:
+```
+>>> for line in f:
+...     print(line, end='')
+...
+This is the first line of the file.
+Second line of the file
+```
+If you want to read all the lines of a file in a list you can also use list(f) or f.readlines().
+
+f.write(string) writes the contents of string to the file, returning the number of characters written.
+```
+>>> f.write('This is a test\n')
+15
+```
+Other types of objects need to be converted – either to a string (in text mode) or a bytes object (in binary mode) – before writing them:
+```
+>>> value = ('the answer', 42)
+>>> s = str(value)  # convert the tuple to string
+>>> f.write(s)
+18
+```
