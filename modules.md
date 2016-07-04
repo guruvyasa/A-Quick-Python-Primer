@@ -47,4 +47,4 @@ There is even a variant to import all names that a module defines:
 >>> fib(500)
 1 1 2 3 5 8 13 21 34 55 89 144 233 377
 ```
-This imports all names except those beginning with an underscore (\_). In most cases Python programmers do not use this facility since it introduces an unknown set of names into the interpreter, possibly hiding some things you have already defined.
+This imports all names except those beginning with an underscore ( \_ ). In most cases Python programmers do not use this facility since it introduces an unknown set of names into the interpreter, possibly hiding some things you have already defined.
